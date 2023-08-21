@@ -66,7 +66,7 @@ async def main():
 			await bot.load_extension(f"cmds.{filename[:-3]}")
 			print(f"{filename} is loaded!")
 
-	token = "ODY5NTU4OTY1MjY3MjM0OTA3.GfdxEq.A5pnBnG0xbLxwjyv0LMI4mS-UE974p7g3m30_w"
+	token = "YOUR TOKEN HERE"
 	await bot.start(token)
     
 if __name__ == "__main__":
