@@ -1,0 +1,41 @@
+{
+    "Version": "1.3.5",
+    "VersionNews": "2023-08-21 (v1.6.0) 更新 Discord.py 至 v2.0 replit",
+    "VersionHistory": [
+        "2023-08-21 (v1.6.0) 更新 Discord.py 至 v2.0 並捨棄 replit",
+        "2022-11-15 (v1.5.1) 新增管理員指令：.delete_mesage",
+        "2022-08-15 (v1.5.0) 移植身份組認領功能到這個 bot，並修改歡迎詞",
+        "2022-08-13 (v1.4.3) 修正 bot 一下線就回不來的問題",
+        "2022-02-01 (v1.4.2) 移除機器人公告的 @here",
+        "2021-12-20 (v1.4.1) 移除成員離開廣播",
+        "2021-12-20 (v1.4.0) 新增洗版禁言功能",
+        "2021-10-08 (v1.3.6) 修正機器人公告無法正確跳轉下次公告日期的問題",
+        "2021-10-06 (v1.3.5) 新增一些公告",
+        "2021-09-24 (v1.3.4) 修復 bot 公告停擺的狀況",
+        "2021-09-22 (v1.3.3) 修改 bot 公告的計數方式",
+        "2021-09-18 (v1.3.2) 修正自架網站網址",
+        "2021-09-13 (v1.3.1) 新增一些公告詞",
+        "2021-09-10 (v1.3.0) 新增機器人公告功能",
+        "2021-09-09 (v1.2.1) 修正手機版在 .ver 和 .help 顯示格式不同的問題",
+        "2021-09-08 (v1.2.0) 新增自架網站網址",
+        "2021-09-07 (v1.1.0) 更正成員退出事件的id顯示方式 & 新增版號查看指令",
+        "2021-09-05 (v1.0.0) 正式版上線"
+    ],
+
+    "FaceBook": "https://www.facebook.com/gdscyzu",
+    "Instagram": "https://instagram.com/gdsc_yzu?utm_medium=copy_link",
+    "Web": "https://yolu21.github.io/gdsc_yzu/",
+    "OfficialWeb": "https://gdsc.community.dev/yuan-ze-university/",
+
+    "Code": "",
+    
+    "AnnounceTime": "5",
+    "AnnounceNum": "3",
+    "AnnounceContent": [
+        "去官網按下 `join us` 以接收更多資訊！官網：https://gdsc.community.dev/yuan-ze-university/",
+        "對感興趣的頻道按右鍵（手機版是長按）-> 通知設定 -> 點開所有訊息，就能收到該頻道所有訊息的通知～",
+        "點擊左上角 -> 更改暱稱，可以改成更好稱呼的暱稱喔～",
+        "多多在群組聊天與分享是我們的核心價值！",
+        "不定期出現社課與活動，歡迎追蹤社內公告並到官網報名最新活動 https://gdsc.community.dev/yuan-ze-university/"
+    ]
+}
