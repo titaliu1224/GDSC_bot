@@ -61,7 +61,7 @@ class Event(Cog_Extension):
             if msg.content.startswith("晚安") or msg.content.endswith("晚安"):
                 await msg.channel.send("ZZZZ")
                 
-            if msg.content.startswith("<@869558965267234907>") or msg.content.endswith("<@!869558965267234907>"):
+            if "<@869558965267234907>" in msg.content:
                 await msg.channel.send("?")
                 
             if msg.content.startswith("兔子") or msg.content.endswith("兔子"):
