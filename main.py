@@ -29,7 +29,7 @@ async def load(ctx, extension):
 		await print_extensions(ctx)
 
 	await bot.load_extension(f"cmds.{extension}")
-	await ctx.send(f"{extension} loaded!")
+	await ctx.send(f"`{extension}` loaded!")
 
 
 @bot.command()
@@ -39,7 +39,7 @@ async def unload(ctx, extension):
 		await print_extensions(ctx)
 
 	await bot.unload_extension(f"cmds.{extension}")
-	await ctx.send(f"{extension} unloaded!")
+	await ctx.send(f"`{extension}` unloaded!")
 
 
 @bot.command()
@@ -49,7 +49,7 @@ async def reload(ctx, extension):
 		await print_extensions(ctx)
 
 	await bot.reload_extension(f"cmds.{extension}")
-	await ctx.send(f"{extension} reloaded!")
+	await ctx.send(f"`{extension}` reloaded!")
 
 async def print_extensions(ctx):
 	files = ''

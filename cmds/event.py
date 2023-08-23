@@ -66,8 +66,6 @@ class Event(Cog_Extension):
                 
             if msg.content.startswith("兔子") or msg.content.endswith("兔子"):
                 await msg.channel.send("兔子可愛")
-            
-            print(msg.content)
 
         #-----------------避免洗版區-------------------#
         if msg.author.id != 869558965267234907 and msg.author.id != 235088799074484224 and msg.content != '': 

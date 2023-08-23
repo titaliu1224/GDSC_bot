@@ -29,7 +29,7 @@ class React(Cog_Extension):
     # 指令說明
     @commands.command()
     async def help(self, ctx):
-        await ctx.send("```\n一般成員可用：\n.help: 呼叫此訊息\n.code: 取得bot的程式碼\n.website: 取得社團所有網站的網址\n.ver: 獲得當前版本資訊\n.ver <不為0之數字>: 獲得完整歷史版本資訊\n```\n```\n管理員專用：\nreload: 上線某個更新過後的檔案\nunload: 下架某個檔案\nload: 上架某個被unloaded的檔案\ndelete_message <數字>: 刪除<數字>條訊息（beta）```")
+        await ctx.send("```\n一般成員可用：\n.help: 呼叫此訊息\n.code: 取得bot的程式碼\n.website: 取得社團所有網站的網址\n.ver: 獲得當前版本資訊\n.ver <不為0之數字>: 獲得完整歷史版本資訊\n```\n```\n管理員專用：\nreload: 上線某個更新過後的檔案\nunload: 下架某個檔案\nload: 上架某個被unloaded的檔案\nload/reload/unload ?: 顯示所有可以 load 的檔案名\ndelete_message <數字>: 刪除<數字>條訊息（beta）```")
 
 
     # core team member 資訊
