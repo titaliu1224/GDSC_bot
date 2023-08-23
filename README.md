@@ -4,6 +4,12 @@ GDSC YZU DC server 御用~~奴隸~~管家
 
 ## 使用設定
 
+使用 pip 下載 `discord.py` :
+
+```
+$pip install discord.py
+```
+
 請於根目錄新增 `token.txt` ，放入 bot 的 token ，如：
 
 ```
